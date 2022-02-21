@@ -1,0 +1,17 @@
+//@mixin mixin名($引数名:数値) {}
+@mixin BoxShadow($br) {
+    background: #CEE5D0;
+    border-radius: $br;
+    box-shadow: 10px 10px 18px #afc3b1,
+        -10px -10px 30px #edffef80;
+}
+
+@mixin BoxShadow2() {
+    box-shadow: inset 10px 10px 15px #afc3b1e6,
+        inset -10px -10px 15px #edffef80;
+}
+
+@mixin WidthHeight($width: 75px, $height: 75px) {
+    width: $width;
+    height: $height;
+}
